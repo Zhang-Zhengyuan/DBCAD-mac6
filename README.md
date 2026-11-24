@@ -18,3 +18,4 @@
 
 - [CAD Agent 重复观测研究与复算说明](output/observation-study/README.md)
 - [三方块装配预实验](output/harness-pilot/) 和 [研究起步报告](output/pdf/DBCAD-Harness-研究起步.pdf)
+- [AI-CAD 验收测试的 P0 选题、P0.5 反例与复算](output/acceptance-p05/README.md)

@@ -1,0 +1,98 @@
+{
+  "dataset_revision": "b29220c3ccceecd9188ab42f1688e4e6bf5d7a7d",
+  "distinct_requests": 192,
+  "totals": {
+    "edits": 960,
+    "paper_pass_all": 384,
+    "complete_five": 770,
+    "paper_pass_complete": 378,
+    "paired_majority_pass": 377,
+    "paper_only": 1,
+    "paired_only": 0
+  },
+  "complete_pairs_per_edit": {
+    "0": 182,
+    "4": 8,
+    "5": 770
+  },
+  "by_editor": {
+    "claude-sonnet-4.5_cadquery-script": {
+      "edits": 192,
+      "paper_pass_all": 10,
+      "complete_five": 80,
+      "paper_pass_complete": 10,
+      "paired_majority_pass": 10,
+      "paper_only": 0,
+      "paired_only": 0
+    },
+    "gemini-3-pro_cadquery-script": {
+      "edits": 192,
+      "paper_pass_all": 20,
+      "complete_five": 123,
+      "paper_pass_complete": 20,
+      "paired_majority_pass": 20,
+      "paper_only": 0,
+      "paired_only": 0
+    },
+    "gpt-5.2_cadquery-script": {
+      "edits": 192,
+      "paper_pass_all": 48,
+      "complete_five": 189,
+      "paper_pass_complete": 47,
+      "paired_majority_pass": 47,
+      "paper_only": 0,
+      "paired_only": 0
+    },
+    "human baseline": {
+      "edits": 192,
+      "paper_pass_all": 149,
+      "complete_five": 190,
+      "paper_pass_complete": 147,
+      "paired_majority_pass": 146,
+      "paper_only": 1,
+      "paired_only": 0
+    },
+    "human requestor": {
+      "edits": 192,
+      "paper_pass_all": 157,
+      "complete_five": 188,
+      "paper_pass_complete": 154,
+      "paired_majority_pass": 154,
+      "paper_only": 0,
+      "paired_only": 0
+    }
+  },
+  "disagreements": [
+    {
+      "edit_sha256": "3c4e7e93d420b55ec077a8e8b9cfd303f80a7ad1089687e200c59b22e9ae6169",
+      "editor": "human baseline",
+      "anonymous_pairs": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "dimension_medians": [
+        5,
+        5
+      ],
+      "individual_double_pass": 2
+    }
+  ]
+}

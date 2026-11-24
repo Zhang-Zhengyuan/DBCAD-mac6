@@ -1,0 +1,69 @@
+{
+  "cadworld_revision": "5e9529ff984b5426a5c194b94a09dc84cbe7fa7a",
+  "task": "freecad-assemble-003",
+  "active_rules": {
+    "exists": true,
+    "assembly_joint_counts": {
+      "Grounded Joint": 1,
+      "Distance Joint": 1,
+      "exact": true
+    }
+  },
+  "candidates": {
+    "upstream_precondition": {
+      "sha256": "769c4043be94adf805ab0d9855646e3d9d6a9ce1906bc64e16682cb570a28f73",
+      "score": 0.0,
+      "checks": {
+        "exists": true,
+        "assembly_joint_counts": false
+      },
+      "extracted_joint_counts": {},
+      "extracted_distance_joint_mm": []
+    },
+    "upstream_reference": {
+      "sha256": "e1bcbe32bdf122181c50e3583bf2d33ffdf267760fd3602176825be90b5af2b2",
+      "score": 1.0,
+      "checks": {
+        "exists": true,
+        "assembly_joint_counts": true
+      },
+      "extracted_joint_counts": {
+        "Grounded Joint": 1,
+        "Distance Joint": 1
+      },
+      "extracted_distance_joint_mm": [
+        5.0
+      ]
+    },
+    "resaved_5mm": {
+      "sha256": "b496bf9748cc8fdcc1e78b28f0b41520480e5a34e2bbef7a6e3c5765c5ee5ab6",
+      "score": 1.0,
+      "checks": {
+        "exists": true,
+        "assembly_joint_counts": true
+      },
+      "extracted_joint_counts": {
+        "Grounded Joint": 1,
+        "Distance Joint": 1
+      },
+      "extracted_distance_joint_mm": [
+        5.0
+      ]
+    },
+    "resaved_8mm": {
+      "sha256": "f654a5fa9f64b2e17de0b08dfc063e780c862b3d89782ae3230373b0a0824914",
+      "score": 1.0,
+      "checks": {
+        "exists": true,
+        "assembly_joint_counts": true
+      },
+      "extracted_joint_counts": {
+        "Grounded Joint": 1,
+        "Distance Joint": 1
+      },
+      "extracted_distance_joint_mm": [
+        8.0
+      ]
+    }
+  }
+}
